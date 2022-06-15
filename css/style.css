@@ -1,12 +1,113 @@
 * {
+  border: 1px solid gold;
+}
+
+html {
+  font-family: 'Times New Roman', Times, serif;
   box-sizing: border-box;
+  height: 100%;
+  font-size: 100%;
 }
 
 body {
-  background-color: slateblue;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.header-logo {
-  max-width: 10%;
-  max-height: 10%;
+.top-section {
+  background-color: #1F2937;
+  padding: 0 8.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .header-logo {
+  margin-top: 0;
+  font: 24px;
+  color: #F9FAF8;
+}
+
+
+.header .header-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 48px;
+  font-family: 18px;
+  color: #E5E7Eb;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  padding: 2.5% 0;
+}
+
+.hero-content {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+.hero-content h1 {
+  font: 48px extra-bold;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.hero-content .hero-subtext{
+  font: 18px;
+  color: #E5E7Eb;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.sign-up {
+  border-radius: 12px;
+  text-align: center;
+  padding: 12px 24px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sheet-music {
+  max-width: 40vw;
+  height: 35vh;
+  border-radius: 12px;
+}
+
+.middle-section-one {
+  padding: 2.5% 8.5rem;
+  text-align: center;
+}
+
+.middle-section-one h2 {
+  font: 36px extra-bold;
+  color: #1F2937;
+}
+
+.section-one-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+}
+
+.middle-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.middle-content .text {
+  width: 150px;
 }
